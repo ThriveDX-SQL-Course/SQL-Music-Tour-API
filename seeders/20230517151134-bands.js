@@ -38,7 +38,53 @@ module.exports = {
       genre: 'Desert Rock',
       available_start_time: '2023-05-01T12:00:00',
       end_time: '2023-09-30T12:00:00'
-    }], {});
+    },{
+      name: 'Pink Floyd',
+      genre: 'Classic Rock',
+      available_start_time: '2023-05-01T12:00:00',
+      end_time: '2023-09-30T12:00:00'
+    },{
+      name: 'One Republic',
+      genre: 'Pop',
+      available_start_time: '2023-05-01T12:00:00',
+      end_time: '2023-09-30T12:00:00'
+    },{
+      name: 'Nirvana',
+      genre: 'Rock',
+      available_start_time: '2023-05-01T12:00:00',
+      end_time: '2023-09-30T12:00:00'
+    },{
+      name: 'Cold Play',
+      genre: 'Pop',
+      available_start_time: '2023-05-01T12:00:00',
+      end_time: '2023-09-30T12:00:00'
+    },{
+      name: 'The Beatles',
+      genre: 'Rock',
+      available_start_time: '2023-05-01T12:00:00',
+      end_time: '2023-09-30T12:00:00'
+    },{
+      name: 'Destiny Child',
+      genre: 'Pop',
+      available_start_time: '2023-05-01T12:00:00',
+      end_time: '2023-09-30T12:00:00'
+    },{
+      name: 'Jackson 5',
+      genre: 'R&B',
+      available_start_time: '2023-05-01T12:00:00',
+      end_time: '2023-09-30T12:00:00'
+    },{
+      name: 'The Isley Brothers',
+      genre: 'R&B',
+      available_start_time: '2023-05-01T12:00:00',
+      end_time: '2023-09-30T12:00:00'
+    },{
+      name: 'One Direction',
+      genre: 'Pop',
+      available_start_time: '2023-05-01T12:00:00',
+      end_time: '2023-09-30T12:00:00'
+    }
+  ], {});
   },
 
   async down (queryInterface, Sequelize) {

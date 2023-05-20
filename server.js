@@ -2,6 +2,9 @@
 const express = require('express')
 const app = express()
 const { Sequelize } = require('sequelize')
+const bandsController = require('./controllers/bands_controller')
+const eventsController = require('./controllers/events_controller')
+const stagesController = require('./controllers/stages_controller')
 
 
 // CONFIGURATION / MIDDLEWARE - Where we configure those dependency packages
@@ -30,8 +33,9 @@ app.get('/', (req, res) => {
 })
 
 // CONTROLLERS
-const bandsController = require('./controllers/bands_controller')
 app.use('/bands', bandsController)
+app.use('/events', eventsController)
+app.use('/stages', stagesController)
 
 
 // LISTEN -- Where we tell our app what port to listen for connections on
